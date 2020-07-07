@@ -1,0 +1,232 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: "Open Sans";
+}
+
+h1,h4,h2{
+  font-family: "Raleway";
+}
+
+
+p{
+  padding-top: 20px;
+
+}
+
+.container-fluid {
+  padding: 5% 8%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.row{
+  margin-right: 20px;
+}
+
+.one{
+padding-bottom: 3rem;
+margin-bottom: 0
+}
+
+.diff{
+  padding-top: 8rem;
+}
+
+.btn{
+  width: 200px;
+  margin-left: 10px;
+}
+
+.first-image{
+  align-content: center;
+  float: right;
+  width: 90%;
+}
+
+#content{
+  background: url("images/bg-curve-desktop.svg")  no-repeat center/cover;
+}
+
+#content h1{
+  padding: 0;
+}
+
+.greenarrow {
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+}
+
+.greenarrow:after {
+    display: block;
+    height: 1px;
+    background-color: hsl(170, 45%, 43%);
+    content: " ";
+    width: 170px;
+}
+
+.testimonial-box {
+    background-color: white;
+    padding: 25px;
+    width: 80%;
+    margin-top: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.testimonial-box p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+}
+
+.userinf {
+    display: flex;
+    margin-top: 10px;
+}
+
+.userinf img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.userinf h4 {
+    margin: 0;
+    font-weight: 700;
+}
+
+#light{
+  background-color:  hsl(238, 22%, 44%);
+  color: white;
+  padding-top: 30px;
+}
+
+#light form input {
+    width: 500px;
+    height: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#dark{
+  background-color: hsl(243, 87%, 12%);
+  color:white;
+  padding: 5% 0;
+}
+
+.foot{
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon{
+  padding: 10px;
+}
+
+.foot ul {
+    list-style: none;
+}
+
+.foot ul li {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+ion-icon {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    margin-right: 20px;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+
+.attribution a {
+  color: grey;
+}
+
+@media (max-width: 1028px){
+  body {
+          overflow-x: hidden;
+          text-align: center;
+      }
+
+      p{
+        text-align: center;
+      }
+
+      nav {
+          width: 30%;
+      }
+      nav ul li {
+          margin: 1px 10px;
+      }
+      .container-fluid {
+          padding-left: 6%;
+          padding-right: 6%;
+      }
+
+.form-inline .btn {
+    width: 100%;
+    margin-left: 50px;
+}
+.form-control{
+ margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+      #content p{
+        color: grey;
+        background-image: url("images/bg-curve-mobile.svg") no-repeat center/cover;
+      }
+
+      .container-fluid>div:first-child {
+          margin-right: 0;
+          order: 2;
+      }
+      .container-fluid>div:last-child {
+          margin-right: 0;
+      }
+
+      .greenarrow:after {
+          margin-left: 30%;
+      }
+      .testimonial-box {
+          width: 100%;
+      }
+      .img{
+          margin-top: 30px;
+      }
+      .userinf {
+          justify-content: center;
+      }
+
+      .diff-btn .btn{
+        width: 62%;
+      }
+
+      .foot {
+        text-align: left;
+          flex-direction: column;
+          margin: 0;
+      }
+      .foot ul {
+          padding: 5px;
+          width: 100%;
+      }
+  }
